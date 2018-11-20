@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="803aeaf9-185c-4d89-8ef3-43da73608237" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/CurrencyToWords.Service/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="f29b9723-8c13-461c-92f2-f726c842fa4b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CurrencyToWords.Service/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="9c97789b-5508-47a8-9752-9e815fadad26" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CurrencyToWords.Service/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="66dd3374-ea20-4efb-a488-8a157ffcfec0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CurrencyToWords.Service/Service1/mex" />
+    <MetadataFile FileName="System.Globalization.xsd" MetadataType="Schema" ID="228a76ae-5744-4722-a973-1bd5c0873e21" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CurrencyToWords.Service/Service1/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="35f55699-385e-43d4-a7e7-09bce73171c4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CurrencyToWords.Service/Service1/mex" />
+    <MetadataFile FileName="CurrencyToWords.Service.xsd" MetadataType="Schema" ID="1233132e-2341-4ec4-bf34-1124a1808fe0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CurrencyToWords.Service/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,34 @@
+﻿<Window x:Class="CurrencyToWords.ClientApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurrencyToWords.ClientApplication"
+        mc:Ignorable="d" Height="301.924" Width="625.641" ResizeMode="NoResize" Title="Currency to Words Converter">
+    <Grid>
+        <Border Margin="119,79,155,289.5"/>
+        <GroupBox Header="Convert Currency Number Amount to Words" HorizontalAlignment="Left" Height="98" Margin="10,79,0,0" VerticalAlignment="Top" Width="600">
+            <Grid Margin="4,7,10,4">
+                <Button x:Name="btnConvert" Content="Convert" HorizontalAlignment="Left" Margin="406,31,0,0" VerticalAlignment="Top" Width="145" Click="btnConvert_Click" IsDefault="True" Foreground="#FF565151" Height="23"/>
+                <TextBox x:Name="txtCurrencyAmount" HorizontalAlignment="Left" Height="23" Margin="0,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" UndoLimit="12" AutomationProperties.HelpText="Please enter the amount to convert to words." HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBox.BindingGroup>
+                        <BindingGroup/>
+                    </TextBox.BindingGroup>
+                </TextBox>
+                <ComboBox x:Name="ddlCulture" HorizontalAlignment="Left" Margin="220,32,0,0" VerticalAlignment="Top" Width="127" SelectedIndex="0">
+                    <ListBoxItem Content="en"/>
+                    <ListBoxItem Content="de"/>
+                </ComboBox>
+                <Label Content="Amount" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Foreground="#FF450959"/>
+                <Label Content="Culture" HorizontalAlignment="Left" Margin="220,0,0,0" VerticalAlignment="Top" Width="56" Foreground="#FF450959"/>
+
+            </Grid>
+        </GroupBox>
+        <Rectangle Fill="#FF621F76" HorizontalAlignment="Left" Height="61" Stroke="Black" VerticalAlignment="Top" Width="795"/>
+        <GroupBox Header="Result" HorizontalAlignment="Left" Height="81" Margin="10,182,0,0" VerticalAlignment="Top" Width="600">
+            <TextBlock x:Name="lblAmountInWords" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="569" Height="45" UseLayoutRounding="False" TextWrapping="WrapWithOverflow" FontSize="14"/>
+        </GroupBox>
+        <Label Content="Currency Number to Words Converter Via WCF" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="344" Foreground="White" FontFamily="Segoe UI Historic" FontSize="16" Height="34" FontStretch="Expanded"/>
+
+    </Grid>
+</Window>
